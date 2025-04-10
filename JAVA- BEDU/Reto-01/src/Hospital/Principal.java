@@ -16,6 +16,8 @@ public class Principal {
         System.out.print("Ingresa el número de expediente del paciente: ");
         paciente1.numExpediente = sc.nextLine();
 
+        sc.close();
+
         paciente1.mostrarInformacion();
 
     }
